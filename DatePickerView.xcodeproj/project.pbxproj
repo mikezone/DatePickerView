@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270B44B71D30AB9200AC5B31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 270B44B61D30AB9200AC5B31 /* main.m */; };
+		270B44BA1D30AB9200AC5B31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 270B44B91D30AB9200AC5B31 /* AppDelegate.m */; };
+		270B44BD1D30AB9200AC5B31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 270B44BC1D30AB9200AC5B31 /* ViewController.m */; };
+		270B44C01D30AB9200AC5B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270B44BE1D30AB9200AC5B31 /* Main.storyboard */; };
+		270B44C21D30AB9200AC5B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270B44C11D30AB9200AC5B31 /* Assets.xcassets */; };
+		270B44C51D30AB9200AC5B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270B44C31D30AB9200AC5B31 /* LaunchScreen.storyboard */; };
+		270B44D01D30AB9200AC5B31 /* DatePickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 270B44CF1D30AB9200AC5B31 /* DatePickerViewTests.m */; };
+		270B44DB1D30AB9200AC5B31 /* DatePickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 270B44DA1D30AB9200AC5B31 /* DatePickerViewUITests.m */; };
+		270B44EA1D30ABF600AC5B31 /* DatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 270B44E91D30ABF600AC5B31 /* DatePickerView.m */; };
+		276612D31EF8BEFD004E2898 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 276612B01EF8BEFD004E2898 /* IQNSArray+Sort.m */; };
+		276612D41EF8BEFD004E2898 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 276612B21EF8BEFD004E2898 /* IQUIScrollView+Additions.m */; };
+		276612D51EF8BEFD004E2898 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 276612B41EF8BEFD004E2898 /* IQUITextFieldView+Additions.m */; };
+		276612D61EF8BEFD004E2898 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 276612B61EF8BEFD004E2898 /* IQUIView+Hierarchy.m */; };
+		276612D71EF8BEFD004E2898 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 276612B81EF8BEFD004E2898 /* IQUIViewController+Additions.m */; };
+		276612D81EF8BEFD004E2898 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 276612BA1EF8BEFD004E2898 /* IQUIWindow+Hierarchy.m */; };
+		276612D91EF8BEFD004E2898 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 276612BF1EF8BEFD004E2898 /* IQKeyboardManager.m */; };
+		276612DA1EF8BEFD004E2898 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 276612C11EF8BEFD004E2898 /* IQKeyboardReturnKeyHandler.m */; };
+		276612DB1EF8BEFD004E2898 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 276612C41EF8BEFD004E2898 /* IQTextView.m */; };
+		276612DC1EF8BEFD004E2898 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 276612C71EF8BEFD004E2898 /* IQBarButtonItem.m */; };
+		276612DD1EF8BEFD004E2898 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 276612C91EF8BEFD004E2898 /* IQPreviousNextView.m */; };
+		276612DE1EF8BEFD004E2898 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 276612CB1EF8BEFD004E2898 /* IQTitleBarButtonItem.m */; };
+		276612DF1EF8BEFD004E2898 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 276612CD1EF8BEFD004E2898 /* IQToolbar.m */; };
+		276612E01EF8BEFD004E2898 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 276612CF1EF8BEFD004E2898 /* IQUIView+IQKeyboardToolbar.m */; };
+		276612E11EF8BEFD004E2898 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 276612D21EF8BEFD004E2898 /* IQKeyboardManager.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		270B44CC1D30AB9200AC5B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 270B44AA1D30AB9200AC5B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 270B44B11D30AB9200AC5B31;
+			remoteInfo = DatePickerView;
+		};
+		270B44D71D30AB9200AC5B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 270B44AA1D30AB9200AC5B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 270B44B11D30AB9200AC5B31;
+			remoteInfo = DatePickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		270B44B21D30AB9200AC5B31 /* DatePickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		270B44B61D30AB9200AC5B31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		270B44B81D30AB9200AC5B31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		270B44B91D30AB9200AC5B31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		270B44BB1D30AB9200AC5B31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		270B44BC1D30AB9200AC5B31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		270B44BF1D30AB9200AC5B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		270B44C11D30AB9200AC5B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		270B44C41D30AB9200AC5B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		270B44C61D30AB9200AC5B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270B44CB1D30AB9200AC5B31 /* DatePickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		270B44CF1D30AB9200AC5B31 /* DatePickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewTests.m; sourceTree = "<group>"; };
+		270B44D11D30AB9200AC5B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270B44D61D30AB9200AC5B31 /* DatePickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		270B44DA1D30AB9200AC5B31 /* DatePickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewUITests.m; sourceTree = "<group>"; };
+		270B44DC1D30AB9200AC5B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270B44E81D30ABF600AC5B31 /* DatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerView.h; sourceTree = "<group>"; };
+		270B44E91D30ABF600AC5B31 /* DatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerView.m; sourceTree = "<group>"; };
+		276612AF1EF8BEFD004E2898 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		276612B01EF8BEFD004E2898 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		276612B11EF8BEFD004E2898 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		276612B21EF8BEFD004E2898 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		276612B31EF8BEFD004E2898 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		276612B41EF8BEFD004E2898 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		276612B51EF8BEFD004E2898 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		276612B61EF8BEFD004E2898 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		276612B71EF8BEFD004E2898 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		276612B81EF8BEFD004E2898 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		276612B91EF8BEFD004E2898 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		276612BA1EF8BEFD004E2898 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		276612BC1EF8BEFD004E2898 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		276612BD1EF8BEFD004E2898 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		276612BE1EF8BEFD004E2898 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		276612BF1EF8BEFD004E2898 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		276612C01EF8BEFD004E2898 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		276612C11EF8BEFD004E2898 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		276612C31EF8BEFD004E2898 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		276612C41EF8BEFD004E2898 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		276612C61EF8BEFD004E2898 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		276612C71EF8BEFD004E2898 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		276612C81EF8BEFD004E2898 /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		276612C91EF8BEFD004E2898 /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		276612CA1EF8BEFD004E2898 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		276612CB1EF8BEFD004E2898 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		276612CC1EF8BEFD004E2898 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		276612CD1EF8BEFD004E2898 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		276612CE1EF8BEFD004E2898 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		276612CF1EF8BEFD004E2898 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		276612D01EF8BEFD004E2898 /* KeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
+		276612D21EF8BEFD004E2898 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		270B44AF1D30AB9200AC5B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270B44C81D30AB9200AC5B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270B44D31D30AB9200AC5B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		270B44A91D30AB9200AC5B31 = {
+			isa = PBXGroup;
+			children = (
+				270B44B41D30AB9200AC5B31 /* DatePickerView */,
+				270B44CE1D30AB9200AC5B31 /* DatePickerViewTests */,
+				270B44D91D30AB9200AC5B31 /* DatePickerViewUITests */,
+				270B44B31D30AB9200AC5B31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		270B44B31D30AB9200AC5B31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				270B44B21D30AB9200AC5B31 /* DatePickerView.app */,
+				270B44CB1D30AB9200AC5B31 /* DatePickerViewTests.xctest */,
+				270B44D61D30AB9200AC5B31 /* DatePickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		270B44B41D30AB9200AC5B31 /* DatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				276612AC1EF8BEFD004E2898 /* Vendors */,
+				270B44E81D30ABF600AC5B31 /* DatePickerView.h */,
+				270B44E91D30ABF600AC5B31 /* DatePickerView.m */,
+				270B44BB1D30AB9200AC5B31 /* ViewController.h */,
+				270B44BC1D30AB9200AC5B31 /* ViewController.m */,
+				270B44B81D30AB9200AC5B31 /* AppDelegate.h */,
+				270B44B91D30AB9200AC5B31 /* AppDelegate.m */,
+				270B44BE1D30AB9200AC5B31 /* Main.storyboard */,
+				270B44C11D30AB9200AC5B31 /* Assets.xcassets */,
+				270B44C31D30AB9200AC5B31 /* LaunchScreen.storyboard */,
+				270B44C61D30AB9200AC5B31 /* Info.plist */,
+				270B44B51D30AB9200AC5B31 /* Supporting Files */,
+			);
+			path = DatePickerView;
+			sourceTree = "<group>";
+		};
+		270B44B51D30AB9200AC5B31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				270B44B61D30AB9200AC5B31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		270B44CE1D30AB9200AC5B31 /* DatePickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				270B44CF1D30AB9200AC5B31 /* DatePickerViewTests.m */,
+				270B44D11D30AB9200AC5B31 /* Info.plist */,
+			);
+			path = DatePickerViewTests;
+			sourceTree = "<group>";
+		};
+		270B44D91D30AB9200AC5B31 /* DatePickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				270B44DA1D30AB9200AC5B31 /* DatePickerViewUITests.m */,
+				270B44DC1D30AB9200AC5B31 /* Info.plist */,
+			);
+			path = DatePickerViewUITests;
+			sourceTree = "<group>";
+		};
+		276612AC1EF8BEFD004E2898 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				276612AD1EF8BEFD004E2898 /* IQKeyboardManager */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		276612AD1EF8BEFD004E2898 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				276612AE1EF8BEFD004E2898 /* Categories */,
+				276612BB1EF8BEFD004E2898 /* Constants */,
+				276612BE1EF8BEFD004E2898 /* IQKeyboardManager.h */,
+				276612BF1EF8BEFD004E2898 /* IQKeyboardManager.m */,
+				276612C01EF8BEFD004E2898 /* IQKeyboardReturnKeyHandler.h */,
+				276612C11EF8BEFD004E2898 /* IQKeyboardReturnKeyHandler.m */,
+				276612C21EF8BEFD004E2898 /* IQTextView */,
+				276612C51EF8BEFD004E2898 /* IQToolbar */,
+				276612D01EF8BEFD004E2898 /* KeyboardManager.h */,
+				276612D11EF8BEFD004E2898 /* Resources */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		276612AE1EF8BEFD004E2898 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				276612AF1EF8BEFD004E2898 /* IQNSArray+Sort.h */,
+				276612B01EF8BEFD004E2898 /* IQNSArray+Sort.m */,
+				276612B11EF8BEFD004E2898 /* IQUIScrollView+Additions.h */,
+				276612B21EF8BEFD004E2898 /* IQUIScrollView+Additions.m */,
+				276612B31EF8BEFD004E2898 /* IQUITextFieldView+Additions.h */,
+				276612B41EF8BEFD004E2898 /* IQUITextFieldView+Additions.m */,
+				276612B51EF8BEFD004E2898 /* IQUIView+Hierarchy.h */,
+				276612B61EF8BEFD004E2898 /* IQUIView+Hierarchy.m */,
+				276612B71EF8BEFD004E2898 /* IQUIViewController+Additions.h */,
+				276612B81EF8BEFD004E2898 /* IQUIViewController+Additions.m */,
+				276612B91EF8BEFD004E2898 /* IQUIWindow+Hierarchy.h */,
+				276612BA1EF8BEFD004E2898 /* IQUIWindow+Hierarchy.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		276612BB1EF8BEFD004E2898 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				276612BC1EF8BEFD004E2898 /* IQKeyboardManagerConstants.h */,
+				276612BD1EF8BEFD004E2898 /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		276612C21EF8BEFD004E2898 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				276612C31EF8BEFD004E2898 /* IQTextView.h */,
+				276612C41EF8BEFD004E2898 /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		276612C51EF8BEFD004E2898 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				276612C61EF8BEFD004E2898 /* IQBarButtonItem.h */,
+				276612C71EF8BEFD004E2898 /* IQBarButtonItem.m */,
+				276612C81EF8BEFD004E2898 /* IQPreviousNextView.h */,
+				276612C91EF8BEFD004E2898 /* IQPreviousNextView.m */,
+				276612CA1EF8BEFD004E2898 /* IQTitleBarButtonItem.h */,
+				276612CB1EF8BEFD004E2898 /* IQTitleBarButtonItem.m */,
+				276612CC1EF8BEFD004E2898 /* IQToolbar.h */,
+				276612CD1EF8BEFD004E2898 /* IQToolbar.m */,
+				276612CE1EF8BEFD004E2898 /* IQUIView+IQKeyboardToolbar.h */,
+				276612CF1EF8BEFD004E2898 /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		276612D11EF8BEFD004E2898 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				276612D21EF8BEFD004E2898 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		270B44B11D30AB9200AC5B31 /* DatePickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270B44DF1D30AB9200AC5B31 /* Build configuration list for PBXNativeTarget "DatePickerView" */;
+			buildPhases = (
+				270B44AE1D30AB9200AC5B31 /* Sources */,
+				270B44AF1D30AB9200AC5B31 /* Frameworks */,
+				270B44B01D30AB9200AC5B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatePickerView;
+			productName = DatePickerView;
+			productReference = 270B44B21D30AB9200AC5B31 /* DatePickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		270B44CA1D30AB9200AC5B31 /* DatePickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270B44E21D30AB9200AC5B31 /* Build configuration list for PBXNativeTarget "DatePickerViewTests" */;
+			buildPhases = (
+				270B44C71D30AB9200AC5B31 /* Sources */,
+				270B44C81D30AB9200AC5B31 /* Frameworks */,
+				270B44C91D30AB9200AC5B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				270B44CD1D30AB9200AC5B31 /* PBXTargetDependency */,
+			);
+			name = DatePickerViewTests;
+			productName = DatePickerViewTests;
+			productReference = 270B44CB1D30AB9200AC5B31 /* DatePickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		270B44D51D30AB9200AC5B31 /* DatePickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270B44E51D30AB9200AC5B31 /* Build configuration list for PBXNativeTarget "DatePickerViewUITests" */;
+			buildPhases = (
+				270B44D21D30AB9200AC5B31 /* Sources */,
+				270B44D31D30AB9200AC5B31 /* Frameworks */,
+				270B44D41D30AB9200AC5B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				270B44D81D30AB9200AC5B31 /* PBXTargetDependency */,
+			);
+			name = DatePickerViewUITests;
+			productName = DatePickerViewUITests;
+			productReference = 270B44D61D30AB9200AC5B31 /* DatePickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		270B44AA1D30AB9200AC5B31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mike;
+				TargetAttributes = {
+					270B44B11D30AB9200AC5B31 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					270B44CA1D30AB9200AC5B31 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 270B44B11D30AB9200AC5B31;
+					};
+					270B44D51D30AB9200AC5B31 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 270B44B11D30AB9200AC5B31;
+					};
+				};
+			};
+			buildConfigurationList = 270B44AD1D30AB9200AC5B31 /* Build configuration list for PBXProject "DatePickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 270B44A91D30AB9200AC5B31;
+			productRefGroup = 270B44B31D30AB9200AC5B31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				270B44B11D30AB9200AC5B31 /* DatePickerView */,
+				270B44CA1D30AB9200AC5B31 /* DatePickerViewTests */,
+				270B44D51D30AB9200AC5B31 /* DatePickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		270B44B01D30AB9200AC5B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270B44C51D30AB9200AC5B31 /* LaunchScreen.storyboard in Resources */,
+				270B44C21D30AB9200AC5B31 /* Assets.xcassets in Resources */,
+				276612E11EF8BEFD004E2898 /* IQKeyboardManager.bundle in Resources */,
+				270B44C01D30AB9200AC5B31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270B44C91D30AB9200AC5B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270B44D41D30AB9200AC5B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		270B44AE1D30AB9200AC5B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276612DB1EF8BEFD004E2898 /* IQTextView.m in Sources */,
+				270B44BD1D30AB9200AC5B31 /* ViewController.m in Sources */,
+				276612DA1EF8BEFD004E2898 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				276612D41EF8BEFD004E2898 /* IQUIScrollView+Additions.m in Sources */,
+				270B44BA1D30AB9200AC5B31 /* AppDelegate.m in Sources */,
+				270B44EA1D30ABF600AC5B31 /* DatePickerView.m in Sources */,
+				276612D91EF8BEFD004E2898 /* IQKeyboardManager.m in Sources */,
+				276612E01EF8BEFD004E2898 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				276612D61EF8BEFD004E2898 /* IQUIView+Hierarchy.m in Sources */,
+				276612DD1EF8BEFD004E2898 /* IQPreviousNextView.m in Sources */,
+				276612DC1EF8BEFD004E2898 /* IQBarButtonItem.m in Sources */,
+				276612D51EF8BEFD004E2898 /* IQUITextFieldView+Additions.m in Sources */,
+				270B44B71D30AB9200AC5B31 /* main.m in Sources */,
+				276612DF1EF8BEFD004E2898 /* IQToolbar.m in Sources */,
+				276612D81EF8BEFD004E2898 /* IQUIWindow+Hierarchy.m in Sources */,
+				276612DE1EF8BEFD004E2898 /* IQTitleBarButtonItem.m in Sources */,
+				276612D71EF8BEFD004E2898 /* IQUIViewController+Additions.m in Sources */,
+				276612D31EF8BEFD004E2898 /* IQNSArray+Sort.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270B44C71D30AB9200AC5B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270B44D01D30AB9200AC5B31 /* DatePickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270B44D21D30AB9200AC5B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270B44DB1D30AB9200AC5B31 /* DatePickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		270B44CD1D30AB9200AC5B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 270B44B11D30AB9200AC5B31 /* DatePickerView */;
+			targetProxy = 270B44CC1D30AB9200AC5B31 /* PBXContainerItemProxy */;
+		};
+		270B44D81D30AB9200AC5B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 270B44B11D30AB9200AC5B31 /* DatePickerView */;
+			targetProxy = 270B44D71D30AB9200AC5B31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		270B44BE1D30AB9200AC5B31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270B44BF1D30AB9200AC5B31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		270B44C31D30AB9200AC5B31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270B44C41D30AB9200AC5B31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		270B44DD1D30AB9200AC5B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		270B44DE1D30AB9200AC5B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		270B44E01D30AB9200AC5B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DatePickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.galaxy.DatePickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		270B44E11D30AB9200AC5B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DatePickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.galaxy.DatePickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		270B44E31D30AB9200AC5B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DatePickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.galaxy.DatePickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DatePickerView.app/DatePickerView";
+			};
+			name = Debug;
+		};
+		270B44E41D30AB9200AC5B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DatePickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.galaxy.DatePickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DatePickerView.app/DatePickerView";
+			};
+			name = Release;
+		};
+		270B44E61D30AB9200AC5B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DatePickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.galaxy.DatePickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DatePickerView;
+			};
+			name = Debug;
+		};
+		270B44E71D30AB9200AC5B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DatePickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.galaxy.DatePickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DatePickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		270B44AD1D30AB9200AC5B31 /* Build configuration list for PBXProject "DatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270B44DD1D30AB9200AC5B31 /* Debug */,
+				270B44DE1D30AB9200AC5B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		270B44DF1D30AB9200AC5B31 /* Build configuration list for PBXNativeTarget "DatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270B44E01D30AB9200AC5B31 /* Debug */,
+				270B44E11D30AB9200AC5B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		270B44E21D30AB9200AC5B31 /* Build configuration list for PBXNativeTarget "DatePickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270B44E31D30AB9200AC5B31 /* Debug */,
+				270B44E41D30AB9200AC5B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		270B44E51D30AB9200AC5B31 /* Build configuration list for PBXNativeTarget "DatePickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270B44E61D30AB9200AC5B31 /* Debug */,
+				270B44E71D30AB9200AC5B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 270B44AA1D30AB9200AC5B31 /* Project object */;
+}
