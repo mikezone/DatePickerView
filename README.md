@@ -11,7 +11,7 @@ self.textField.inputView = datePickerView;
 <img src="http://7vim0m.com1.z0.glb.clouddn.com/DatePickerView1.gif" width=375px />
 
 ```objective-c
-dateFormatter.dateFormat = @"HH:mm:ss"; // number of section depends on dateFormat
+dateFormatter.dateFormat = @"yyyy-MM-dd HH"; // number of section depends on dateFormat
 ```
 <img src="http://7vim0m.com1.z0.glb.clouddn.com/DatePickerView2.gif" width=375px />
 
